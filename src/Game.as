@@ -25,8 +25,8 @@ package
 		{
 			particles = new ParticleDesignerPS(XML( new ParticleXML()), Texture.fromBitmap(new ParticleTexture()));
 			particles.start();
-			particles.x = 50;
-			particles.y = 250;
+			particles.x = 350;
+			particles.y = 450;
 			Starling.juggler.add(particles);
 			addChild(particles);
 		}

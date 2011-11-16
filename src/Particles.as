@@ -11,6 +11,7 @@ package
 		{
 			var star:Starling = new Starling(Game, stage);
 			star.start();
+	
 			
 		}
 	}
